@@ -19,3 +19,9 @@ def word_substituter tweet
     dictionary.include?(word) ? dictionary[word] : word
   }.join(" ")
 end
+
+def bulk_tweet_shortener tweets
+  tweets.each {|tweet|
+    p word_substituter tweet
+  }
+end
