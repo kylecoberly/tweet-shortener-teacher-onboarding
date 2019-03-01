@@ -1,4 +1,5 @@
 def dictionary
+{
   "hello" => "hi",
   "to" => '2',
   "two" => '2',
@@ -9,4 +10,5 @@ def dictionary
   "you" => 'u',
   "at" => "@",
   "and" => "&"
+}
 end
