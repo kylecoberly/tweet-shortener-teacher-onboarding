@@ -17,5 +17,7 @@ def word_substituter tweet
   words = tweet.split(" ")
   words.map {|word|
     dictionary.include? word
+      ? dictionary[word]
+      : word
   }
 end
