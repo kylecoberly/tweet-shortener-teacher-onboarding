@@ -19,5 +19,5 @@ def word_substituter tweet
     dictionary.include? word
       ? dictionary[word]
       : word
-  }
+  }.join(" ")
 end
